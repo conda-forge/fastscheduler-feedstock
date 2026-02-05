@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.2.0
+  version: "0.2.1"
 
 package:
   name: fastscheduler
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fastscheduler/fastscheduler-${{ version }}.tar.gz
-  sha256: cab4ccf0cd4564c4c528b06899f3c43a7e1fe5b11ef74274f16217f1903037ee
+  sha256: 3ee84c9bc943c65b9493c8d8cacdcf8ea14b22cb57e4637cbc313a61e20ceda9
 
 build:
   number: 0
